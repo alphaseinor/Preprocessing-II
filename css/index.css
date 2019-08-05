@@ -168,7 +168,7 @@ img {
 }
 .container {
   max-width: 800px;
-  width: 100%;
+  width: 90vw;
   margin: 0 auto;
 }
 header {
@@ -208,6 +208,9 @@ header article nav a:hover {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.main-content {
+  margin-top: 2rem;
 }
 .home .content-section {
   margin: 30px 0;
@@ -271,4 +274,12 @@ header article nav a:hover {
 .home .content-pick .destination .btn:hover {
   background-color: #ffffff;
   color: #136e6e;
+}
+@media (max-width: 500px) {
+  header article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
