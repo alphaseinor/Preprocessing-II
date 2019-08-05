@@ -267,13 +267,13 @@ header article nav a:hover {
   font-size: 1.75rem;
   padding: 1rem 2rem;
   color: #ffffff;
-  background-color: #136e6e;
+  background-color: #00b9da;
   border-radius: 0.5rem;
   padding: 2rem 0;
 }
 .home .content-pick .destination .btn:hover {
   background-color: #ffffff;
-  color: #136e6e;
+  color: #00b9da;
 }
 @media (max-width: 500px) {
   header article {
@@ -281,5 +281,38 @@ header article nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .content-section .text-content {
+    padding: 0;
+    width: 100%;
+  }
+  .home .content-section .img-content {
+    padding: 0;
+    width: 100%;
+  }
+  .home .inverse-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .content-destination {
+    width: 100%;
+  }
+  .home .content-pick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .home .content-pick .destination {
+    width: 80%;
   }
 }
