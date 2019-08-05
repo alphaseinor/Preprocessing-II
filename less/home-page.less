@@ -1,13 +1,10 @@
 .home {
-
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -56,6 +53,12 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      text-align: justify;
+      .btn {
+        .custom-flex(row, center, center);
+        .custom-button(@white, @button-bg);
+        padding: 2rem 0;
+      }
     }
   }
-}// home
+} // home

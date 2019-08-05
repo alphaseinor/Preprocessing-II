@@ -168,10 +168,37 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  border-bottom: 2px dashed #c0c0c0;
+  padding: 2rem 0;
+}
+header article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header article nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+header article nav a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.75rem;
+  padding: 1rem 1.5rem;
+}
+header article nav a:hover {
+  background-color: #ffebcd;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid #212529;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -198,7 +225,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -217,11 +244,28 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+  text-align: justify;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  background-color: #136e6e;
+  border-radius: 0.5rem;
+  padding: 2rem 0;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #ffffff;
+  color: #136e6e;
 }
