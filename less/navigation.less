@@ -1,1 +1,22 @@
 // Navigation Styles here
+header {
+  border-bottom: 2px dashed @navigation-border;
+  padding: 2rem 0;
+  article {
+    .custom-flex(row, space-between, center);
+    nav {
+      .custom-flex(row, flex-end, center);
+      a {
+        text-decoration: none;
+        color: @shark;
+        font-size: 1.75rem;
+        padding: 1rem 1.5rem;
+        &:hover {
+          background-color: @footer-bg;
+          border-radius: 0.5rem;
+          border-bottom: 1px solid @shark;
+        }
+      }
+    }
+  }
+}
